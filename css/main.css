@@ -22,11 +22,12 @@ body {
 }
 
 .img-flex {
+  display: inline-block;
   width: 100%;
   max-width: 140px;
 }
 
-section.wrapper {
+.wrapper {
   width: 100%;
   background-color: #e5c30a;
   text-align: center;
@@ -34,19 +35,19 @@ section.wrapper {
   padding: 1.3rem;
 }
 
-div.section-letter {
+.section-letter {
   display: inline-block;
   float: left;
   width: 50%;
 }
 
-div.section-icon {
+.section-icon {
   display: inline-block;
   float: left;
   width: 50%;
 }
 
-div.section-body {
+.section-body {
   display: inline-block;
   float: left;
   width: 100%;
@@ -54,13 +55,13 @@ div.section-body {
   padding: 0;
 }
 
-h2 {
+section h2 {
   font-size: 1.5rem;
   margin: 0;
   font-weight: 900;
 }
 
-p {
+section p {
   margin: 0;
 }
 
@@ -110,5 +111,7 @@ p {
     font-size: 130%;
     line-height: 1.5;
   }
+
+  section
 
 }
