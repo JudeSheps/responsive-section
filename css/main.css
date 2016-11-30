@@ -21,12 +21,94 @@ body {
   margin: 0;
 }
 
-section {
+.img-flex {
+  width: 100%;
+  max-width: 140px;
+}
+
+section.wrapper {
   width: 100%;
   background-color: #e5c30a;
+  text-align: center;
   overflow: hidden;
+  padding: 1.3rem;
+}
+
+div.section-letter {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+div.section-icon {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+div.section-body {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding: 0;
 }
 
 h2 {
   font-size: 1.5rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  div.section-letter {
+    width: 25%;
+  }
+
+  div.section-icon {
+    float: right;
+    width: 25%;
+  }
+
+  div.section-body {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
